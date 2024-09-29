@@ -1,0 +1,53 @@
+{
+  "parser": "@babel/eslint-parser",
+  "extends": [
+    "react-app",
+    "standard",
+    "standard-react",
+    "plugin:prettier/recommended",
+    "prettier/standard",
+    "prettier/react"
+  ],
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "legacyDecorators": true,
+      "jsx": true // Enable JSX parsing
+    },
+    "requireConfigFile": false
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Automatically detect the React version
+    }
+  },
+  "rules": {
+    "space-before-function-paren": 0,
+    "react/prop-types": 0,
+    "react/jsx-handler-names": 0,
+    "react/jsx-fragments": 0,
+    "react/no-unused-prop-types": 0,
+    "import/export": 0,
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": false,
+        "jsxSingleQuote": false,
+        "semi": true,
+        "tabWidth": 2,
+        "bracketSpacing": true,
+        "jsxBracketSameLine": false,
+        "trailingComma": "es5",
+        "printWidth": 120,
+        "arrowParens": "avoid",
+        "endOfLine": "lf"
+      }
+    ]
+  }
+}
