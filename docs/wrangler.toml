@@ -1,0 +1,9 @@
+name = "tx-design-ui"
+main = "src/pages/index.js"
+type = "javascript"
+compatibility_date = "2024-09-30"
+account_id = "98313432e0305f2669345d8520a1adfd"
+workers_dev = true
+
+[env.production]
+route = "https://docs-tx-design.pages.dev/*"

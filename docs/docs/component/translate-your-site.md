@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Translate your site
 
-Let's translate `docs/getting-started/overview.md` to French.
+Let's translate `docs/category/getting-started.md` to French.
 
 ## Configure i18n
 
@@ -21,12 +21,12 @@ export default {
 
 ## Translate a doc
 
-Copy the `docs/getting-started/overview.md` file to the `i18n/fr` folder:
+Copy the `docs/category/getting-started.md` file to the `i18n/fr` folder:
 
 ```bash
 mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
 
-cp docs/getting-started/overview.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
+cp docs/category/getting-started.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
 ```
 
 Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
