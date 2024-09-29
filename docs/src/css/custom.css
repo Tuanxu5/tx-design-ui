@@ -45,10 +45,26 @@ svg {
   transition: transform var(--ifm-transition-fast) linear;
 }
 
+main {
+  padding: 1rem 2.5rem;
+}
+
 h1 {
   font-size: 2.5rem;
 }
 
 h2 {
   font-size: 1.8rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px !important;
 }
