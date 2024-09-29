@@ -2,12 +2,12 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 const config = {
   title: "Tx UI",
-  tagline: "Dinosaurs are cool",
+  tagline: "tx design ui",
   favicon: "img/favicon.ico",
   url: "https://your-docusaurus-site.example.com",
-  baseUrl: "/",
-  organizationName: "facebook",
-  projectName: "docusaurus",
+  baseUrl: "https://docs-tx-design.pages.dev/",
+  organizationName: "Tuanxu5",
+  projectName: "tx-design-ui",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   i18n: {
