@@ -1,0 +1,69 @@
+.header-homepage {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 2rem 3rem 2rem;
+}
+
+.subtitle {
+  font-weight: 500;
+}
+
+.content-header {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.group-button {
+  display: flex;
+  gap: 16px;
+  margin-top: 50px;
+}
+.group-button button {
+  padding: 14px 24px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button-started {
+  background-color: var(--ifm-color-primary);
+  color: #ffffff;
+}
+
+.button-github {
+  color: var(--ifm-color-primary);
+  background-color: white;
+}
+
+.button-github:hover {
+  background-color: var(--docusaurus-highlighted-code-line-bg);
+}
+
+.homepage-content {
+  display: flex;
+  justify-content: center;
+}
+.content-content {
+  padding: 2rem;
+  max-width: 1400px;
+  background: #f8f8f8;
+  border-radius: 36px;
+}
+
+.homepage-footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  height: 60px;
+  border-top: 1px solid #3c3c431f;
+}

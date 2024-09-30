@@ -13,9 +13,11 @@
   font-size: 14px;
 }
 
-svg {
+.clean-btn svg {
   max-width: 20px !important;
-  max-width: 20px !important;
+}
+.navbar__item svg {
+  width: 16px !important;
 }
 
 :root {

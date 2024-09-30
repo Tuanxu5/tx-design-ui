@@ -22,11 +22,14 @@
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "sass": "^1.79.4",
     "wrangler": "^3.78.12"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.5.2",
-    "@docusaurus/types": "3.5.2"
+    "@docusaurus/types": "3.5.2",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0"
   },
   "browserslist": {
     "production": [
