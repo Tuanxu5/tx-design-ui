@@ -61,7 +61,7 @@ const config = {
           position: "right",
         },
         {
-          to: "https://github.com/Tuanxu5/tx-design-ui",
+          to: "https://storybook-tx-design.pages.dev",
           label: "Storybook",
           position: "right",
         },
