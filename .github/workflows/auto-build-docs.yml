@@ -24,12 +24,6 @@ jobs:
       - name: Build the project
         run: cd docs && yarn build
 
-      - name: Deploy to Cloudflare
-        env:
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-        run: |
-          cd docs && npm install -g wrangler && wrangler publish --env production
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
