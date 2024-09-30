@@ -19,10 +19,10 @@ jobs:
           node-version: "18"
 
       - name: Install dependencies
-        run: npm install
+        run: cd docs && yarn
 
       - name: Build the project
-        run: npm run build
+        run: yarn build
 
       - name: Deploy to Cloudflare
         env:
