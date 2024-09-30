@@ -1,0 +1,167 @@
+{
+  "v": 5,
+  "entries": {
+    "tx-design-ui-txavatar--docs": {
+      "id": "tx-design-ui-txavatar--docs",
+      "title": "tx-design-ui/TxAvatar",
+      "name": "Docs",
+      "importPath": "./src/stories/TxAvatar.stories.js",
+      "type": "docs",
+      "tags": ["dev", "test", "autodocs"],
+      "storiesImports": []
+    },
+    "tx-design-ui-txavatar--preview-avatar": {
+      "type": "story",
+      "id": "tx-design-ui-txavatar--preview-avatar",
+      "name": "Preview Avatar",
+      "title": "tx-design-ui/TxAvatar",
+      "importPath": "./src/stories/TxAvatar.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txavatar--size": {
+      "type": "story",
+      "id": "tx-design-ui-txavatar--size",
+      "name": "Size",
+      "title": "tx-design-ui/TxAvatar",
+      "importPath": "./src/stories/TxAvatar.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txavatar--shape": {
+      "type": "story",
+      "id": "tx-design-ui-txavatar--shape",
+      "name": "Shape",
+      "title": "tx-design-ui/TxAvatar",
+      "importPath": "./src/stories/TxAvatar.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txavatar--icon": {
+      "type": "story",
+      "id": "tx-design-ui-txavatar--icon",
+      "name": "Icon",
+      "title": "tx-design-ui/TxAvatar",
+      "importPath": "./src/stories/TxAvatar.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txavatar--url": {
+      "type": "story",
+      "id": "tx-design-ui-txavatar--url",
+      "name": "Url",
+      "title": "tx-design-ui/TxAvatar",
+      "importPath": "./src/stories/TxAvatar.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txavatar--badge": {
+      "type": "story",
+      "id": "tx-design-ui-txavatar--badge",
+      "name": "Badge",
+      "title": "tx-design-ui/TxAvatar",
+      "importPath": "./src/stories/TxAvatar.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txavatar--group": {
+      "type": "story",
+      "id": "tx-design-ui-txavatar--group",
+      "name": "Group",
+      "title": "tx-design-ui/TxAvatar",
+      "importPath": "./src/stories/TxAvatar.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txbutton--docs": {
+      "id": "tx-design-ui-txbutton--docs",
+      "title": "tx-design-ui/TxButton",
+      "name": "Docs",
+      "importPath": "./src/stories/TxButton.stories.js",
+      "type": "docs",
+      "tags": ["dev", "test", "autodocs"],
+      "storiesImports": []
+    },
+    "tx-design-ui-txbutton--preview-button": {
+      "type": "story",
+      "id": "tx-design-ui-txbutton--preview-button",
+      "name": "Preview Button",
+      "title": "tx-design-ui/TxButton",
+      "importPath": "./src/stories/TxButton.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txbutton--type": {
+      "type": "story",
+      "id": "tx-design-ui-txbutton--type",
+      "name": "Type",
+      "title": "tx-design-ui/TxButton",
+      "importPath": "./src/stories/TxButton.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txbutton--disabled": {
+      "type": "story",
+      "id": "tx-design-ui-txbutton--disabled",
+      "name": "Disabled",
+      "title": "tx-design-ui/TxButton",
+      "importPath": "./src/stories/TxButton.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txbutton--loading": {
+      "type": "story",
+      "id": "tx-design-ui-txbutton--loading",
+      "name": "Loading",
+      "title": "tx-design-ui/TxButton",
+      "importPath": "./src/stories/TxButton.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txbutton--danger": {
+      "type": "story",
+      "id": "tx-design-ui-txbutton--danger",
+      "name": "Danger",
+      "title": "tx-design-ui/TxButton",
+      "importPath": "./src/stories/TxButton.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txbutton--size": {
+      "type": "story",
+      "id": "tx-design-ui-txbutton--size",
+      "name": "Size",
+      "title": "tx-design-ui/TxButton",
+      "importPath": "./src/stories/TxButton.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txbutton--icon": {
+      "type": "story",
+      "id": "tx-design-ui-txbutton--icon",
+      "name": "Icon",
+      "title": "tx-design-ui/TxButton",
+      "importPath": "./src/stories/TxButton.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txbutton--shape": {
+      "type": "story",
+      "id": "tx-design-ui-txbutton--shape",
+      "name": "Shape",
+      "title": "tx-design-ui/TxButton",
+      "importPath": "./src/stories/TxButton.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    },
+    "tx-design-ui-txbutton--gradient-background": {
+      "type": "story",
+      "id": "tx-design-ui-txbutton--gradient-background",
+      "name": "Gradient Background",
+      "title": "tx-design-ui/TxButton",
+      "importPath": "./src/stories/TxButton.stories.js",
+      "componentPath": "./src/components",
+      "tags": ["dev", "test", "autodocs"]
+    }
+  }
+}
