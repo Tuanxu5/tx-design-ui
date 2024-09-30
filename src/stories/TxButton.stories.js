@@ -3,7 +3,7 @@ import React from "react";
 import { SvgIcon } from "../assets/icons";
 import { TxButton } from "../components";
 
-export default {
+const TxButtonStory = {
   title: "tx-design-ui/TxButton",
   component: TxButton,
   parameters: {
@@ -19,6 +19,8 @@ export default {
     onClick: fn,
   },
 };
+
+export default TxButtonStory;
 
 export const PreviewButton = {
   render: args => (

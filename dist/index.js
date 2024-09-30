@@ -4,7 +4,7 @@ function _interopDefault(ex) {
 
 var React = _interopDefault(require("react"));
 
-var styles = { test: "_styles-module__test__3ybTi" };
+var styles = { test: "_3ybTi" };
 
 var ExampleComponent = function ExampleComponent(_ref) {
   var text = _ref.text;

@@ -4,7 +4,7 @@ import { SvgIcon } from "../assets/icons";
 import { TxAvatar } from "../components";
 import { urlImageAvatar } from "../utils/string";
 
-export default {
+const TxAvatarStory = {
   title: "tx-design-ui/TxAvatar",
   component: TxAvatar,
   parameters: {
@@ -18,6 +18,7 @@ export default {
     onClick: fn,
   },
 };
+export default TxAvatarStory;
 
 export const PreviewAvatar = {
   render: args => (
