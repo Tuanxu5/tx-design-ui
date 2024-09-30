@@ -138,7 +138,7 @@
             (0, t.jsx)(s.p, {
               children: (0, t.jsx)(s.img, {
                 alt: "Docusaurus Plushie",
-                src: o(8114).A + "",
+                src: o(4829).A + "",
                 width: "1500",
                 height: "500",
               }),
@@ -162,7 +162,7 @@
         return s ? (0, t.jsx)(s, { ...e, children: (0, t.jsx)(u, { ...e }) }) : u(e);
       }
     },
-    8114: (e, s, o) => {
+    4829: (e, s, o) => {
       o.d(s, { A: () => t });
       const t = o.p + "assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg";
     },

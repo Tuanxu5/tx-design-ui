@@ -1,42 +1,42 @@
 "use strict";
 (self.webpackChunkdocs = self.webpackChunkdocs || []).push([
-  [6144],
+  [6443],
   {
-    2467: (e, n, t) => {
+    4081: (e, n, t) => {
       t.r(n),
         t.d(n, {
-          assets: () => c,
-          contentTitle: () => a,
+          assets: () => a,
+          contentTitle: () => i,
           default: () => u,
-          frontMatter: () => r,
-          metadata: () => i,
-          toc: () => d,
+          frontMatter: () => s,
+          metadata: () => d,
+          toc: () => c,
         });
       var o = t(4848),
-        s = t(8453);
-      const r = { sidebar_position: 2 },
-        a = "Translate your site",
-        i = {
-          id: "component/translate-your-site",
-          title: "Translate your site",
-          description: "Let's translate docs/category/getting-started.md to French.",
-          source: "@site/docs/component/translate-your-site.md",
+        r = t(8453);
+      const s = { sidebar_position: 1 },
+        i = "Button",
+        d = {
+          id: "component/button",
+          title: "Button",
+          description: "Let's translate docs/getting-started/overview.md to French.",
+          source: "@site/docs/component/button.md",
           sourceDirName: "component",
-          slug: "/component/translate-your-site",
-          permalink: "/docs/component/translate-your-site",
+          slug: "/component/button",
+          permalink: "/docs/component/button",
           draft: !1,
           unlisted: !1,
-          editUrl: "https://github.com/Tuanxu5/tx-design-ui/tree/master/docs/docs/component/translate-your-site.md",
+          editUrl: "https://github.com/Tuanxu5/tx-design-ui/tree/master/docs/docs/component/button.md",
           tags: [],
           version: "current",
-          sidebarPosition: 2,
-          frontMatter: { sidebar_position: 2 },
+          sidebarPosition: 1,
+          frontMatter: { sidebar_position: 1 },
           sidebar: "tutorialSidebar",
-          previous: { title: "Manage Docs Versions", permalink: "/docs/component/manage-docs-versions" },
+          previous: { title: "Avatar", permalink: "/docs/component/avatar" },
           next: { title: "Migration Guide", permalink: "/docs/migration-guide" },
         },
-        c = {},
-        d = [
+        a = {},
+        c = [
           { value: "Configure i18n", id: "configure-i18n", level: 2 },
           { value: "Translate a doc", id: "translate-a-doc", level: 2 },
           { value: "Start your localized site", id: "start-your-localized-site", level: 2 },
@@ -54,19 +54,17 @@
           img: "img",
           p: "p",
           pre: "pre",
-          ...(0, s.R)(),
+          ...(0, r.R)(),
           ...e.components,
         };
         return (0, o.jsxs)(o.Fragment, {
           children: [
-            (0, o.jsx)(n.header, {
-              children: (0, o.jsx)(n.h1, { id: "translate-your-site", children: "Translate your site" }),
-            }),
+            (0, o.jsx)(n.header, { children: (0, o.jsx)(n.h1, { id: "button", children: "Button" }) }),
             "\n",
             (0, o.jsxs)(n.p, {
               children: [
                 "Let's translate ",
-                (0, o.jsx)(n.code, { children: "docs/category/getting-started.md" }),
+                (0, o.jsx)(n.code, { children: "docs/getting-started/overview.md" }),
                 " to French.",
               ],
             }),
@@ -97,7 +95,7 @@
             (0, o.jsxs)(n.p, {
               children: [
                 "Copy the ",
-                (0, o.jsx)(n.code, { children: "docs/category/getting-started.md" }),
+                (0, o.jsx)(n.code, { children: "docs/getting-started/overview.md" }),
                 " file to the ",
                 (0, o.jsx)(n.code, { children: "i18n/fr" }),
                 " folder:",
@@ -108,7 +106,7 @@
               children: (0, o.jsx)(n.code, {
                 className: "language-bash",
                 children:
-                  "mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/\n\ncp docs/category/getting-started.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md\n",
+                  "mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/\n\ncp docs/getting-started/overview.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md\n",
               }),
             }),
             "\n",
@@ -163,7 +161,7 @@
             (0, o.jsx)(n.p, { children: "The locale dropdown now appears in your navbar:" }),
             "\n",
             (0, o.jsx)(n.p, {
-              children: (0, o.jsx)(n.img, { alt: "Locale Dropdown", src: t(8192).A + "", width: "370", height: "302" }),
+              children: (0, o.jsx)(n.img, { alt: "Locale Dropdown", src: t(4549).A + "", width: "370", height: "302" }),
             }),
             "\n",
             (0, o.jsx)(n.h2, { id: "build-your-localized-site", children: "Build your localized site" }),
@@ -183,21 +181,21 @@
         });
       }
       function u(e = {}) {
-        const { wrapper: n } = { ...(0, s.R)(), ...e.components };
+        const { wrapper: n } = { ...(0, r.R)(), ...e.components };
         return n ? (0, o.jsx)(n, { ...e, children: (0, o.jsx)(l, { ...e }) }) : l(e);
       }
     },
-    8192: (e, n, t) => {
+    4549: (e, n, t) => {
       t.d(n, { A: () => o });
       const o = t.p + "assets/images/localeDropdown-f0d995e751e7656a1b0dbbc1134e49c2.png";
     },
     8453: (e, n, t) => {
-      t.d(n, { R: () => a, x: () => i });
+      t.d(n, { R: () => i, x: () => d });
       var o = t(6540);
-      const s = {},
-        r = o.createContext(s);
-      function a(e) {
-        const n = o.useContext(r);
+      const r = {},
+        s = o.createContext(r);
+      function i(e) {
+        const n = o.useContext(s);
         return o.useMemo(
           function () {
             return "function" == typeof e ? e(n) : { ...n, ...e };
@@ -205,15 +203,15 @@
           [n, e]
         );
       }
-      function i(e) {
+      function d(e) {
         let n;
         return (
           (n = e.disableParentContext
             ? "function" == typeof e.components
-              ? e.components(s)
-              : e.components || s
-            : a(e.components)),
-          o.createElement(r.Provider, { value: n }, e.children)
+              ? e.components(r)
+              : e.components || r
+            : i(e.components)),
+          o.createElement(s.Provider, { value: n }, e.children)
         );
       }
     },

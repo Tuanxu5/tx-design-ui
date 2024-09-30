@@ -4,6 +4,12 @@
   font-family: "Nunito", sans-serif !important;
   font-optical-sizing: auto;
   font-style: normal;
+  font-size: 15px;
+}
+
+.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module span {
+  font-family: "Dank Mono", sans-serif !important;
+  font-weight: 600 !important;
   font-size: 14px;
 }
 
@@ -33,6 +39,41 @@ svg {
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.theme-doc-sidebar-container {
+  border: none !important;
+}
+.navbar {
+  justify-content: center;
+}
+
+.navbar__inner {
+  max-width: 1400px;
+}
+
+.docsWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-styles-module {
+  justify-content: center;
+}
+
+.docRoot_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-styles-module {
+  max-width: 1400px;
+}
+
+.table-of-contents__link--active {
+  font-weight: 700;
+}
+
+.menu__list-item-collapsible {
+  font-weight: 700;
+}
+
+.theme-doc-sidebar-item-link-level-1 {
+  font-weight: 700;
+}
+
+.menu__caret:hover {
+  background-color: none;
 }
 
 .menu__caret:before {

@@ -33,14 +33,14 @@
     <meta
       data-rh="true"
       name="description"
-      content="Let&#x27;s translate docs/category/getting-started.md to French."
+      content="Let&#x27;s translate docs/getting-started/overview.md to French."
     />
     <meta
       data-rh="true"
       property="og:description"
-      content="Let&#x27;s translate docs/category/getting-started.md to French."
+      content="Let&#x27;s translate docs/getting-started/overview.md to French."
     />
-    <link data-rh="true" rel="icon" href="/img/favicon.ico" />
+    <link data-rh="true" rel="icon" href="/img/favicon.svg" />
     <link data-rh="true" rel="canonical" href="https://docs-tx-design.pages.dev/docs/component/button" />
     <link data-rh="true" rel="alternate" href="https://docs-tx-design.pages.dev/docs/component/button" hreflang="en" />
     <link
@@ -51,9 +51,9 @@
     />
     <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Tx UI RSS Feed" />
     <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Tx UI Atom Feed" />
-    <link rel="stylesheet" href="/assets/css/styles.a02cd495.css" />
-    <script src="/assets/js/runtime~main.00e182ec.js" defer="defer"></script>
-    <script src="/assets/js/main.71741063.js" defer="defer"></script>
+    <link rel="stylesheet" href="/assets/css/styles.07e088e2.css" />
+    <script src="/assets/js/runtime~main.558f4ae9.js" defer="defer"></script>
+    <script src="/assets/js/main.3d9909a7.js" defer="defer"></script>
   </head>
   <body class="navigation-with-keyboard">
     <script>
@@ -111,27 +111,27 @@
               ><div class="navbar__logo">
                 <img
                   src="/img/logo.svg"
-                  alt="My Site Logo"
+                  alt="An enterprise-class UI design language and React components implementation"
                   class="themedComponent_mlkZ themedComponent--light_NVdE"
-                /><img src="/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU" />
+                /><img
+                  src="/img/logo.svg"
+                  alt="An enterprise-class UI design language and React components implementation"
+                  class="themedComponent_mlkZ themedComponent--dark_xIcU"
+                />
               </div>
-              <b class="navbar__title text--truncate">Tx Design</b></a
+              <b class="navbar__title text--truncate">Design UI</b></a
             >
           </div>
           <div class="navbar__items navbar__items--right">
-            <a
-              aria-current="page"
-              class="navbar__item navbar__link navbar__link--active"
-              href="/docs/category/getting-started"
-              >Tutorial</a
+            <a class="navbar__item navbar__link" href="/docs/getting-started/overview">Tutorial</a
             ><a
-              href="https://github.com/facebook/docusaurus"
+              href="https://github.com/Tuanxu5/tx-design-ui"
               target="_blank"
               rel="noopener noreferrer"
               class="navbar__item navbar__link"
               >GitHub</a
             ><a
-              href="https://github.com/facebook/docusaurus"
+              href="https://github.com/Tuanxu5/tx-design-ui"
               target="_blank"
               rel="noopener noreferrer"
               class="navbar__item navbar__link"
@@ -248,22 +248,15 @@
                         </div>
                         <ul style="display: block; overflow: visible; height: auto" class="menu__list">
                           <li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                            <a class="menu__link" tabindex="0" href="/docs/component/avatar">Avatar</a>
+                          </li>
+                          <li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
                             <a
                               class="menu__link menu__link--active"
                               aria-current="page"
                               tabindex="0"
                               href="/docs/component/button"
                               >Button</a
-                            >
-                          </li>
-                          <li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
-                            <a class="menu__link" tabindex="0" href="/docs/component/manage-docs-versions"
-                              >Manage Docs Versions</a
-                            >
-                          </li>
-                          <li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
-                            <a class="menu__link" tabindex="0" href="/docs/component/translate-your-site"
-                              >Translate your site</a
                             >
                           </li>
                         </ul>
@@ -322,7 +315,7 @@
                         </div>
                         <div class="theme-doc-markdown markdown">
                           <header><h1>Button</h1></header>
-                          <p>Let&#x27;s translate <code>docs/category/getting-started.md</code> to French.</p>
+                          <p>Let&#x27;s translate <code>docs/getting-started/overview.md</code> to French.</p>
                           <h2 class="anchor anchorWithStickyNavbar_LWe7" id="configure-i18n">
                             Configure i18n<a
                               href="#configure-i18n"
@@ -377,7 +370,7 @@
                             >
                           </h2>
                           <p>
-                            Copy the <code>docs/category/getting-started.md</code> file to the
+                            Copy the <code>docs/getting-started/overview.md</code> file to the
                             <code>i18n/fr</code> folder:
                           </p>
                           <div
@@ -389,7 +382,7 @@
                                 tabindex="0"
                                 class="prism-code language-bash codeBlock_bY9V thin-scrollbar"
                                 style="color: #393a34; background-color: #f6f8fa"
-                              ><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cp docs/category/getting-started.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md</span><br></span></code></pre>
+                              ><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cp docs/getting-started/overview.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md</span><br></span></code></pre>
                               <div class="buttonGroup__atx">
                                 <button
                                   type="button"
@@ -644,14 +637,12 @@
                         </footer>
                       </article>
                       <nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages">
-                        <a class="pagination-nav__link pagination-nav__link--prev" href="/docs/category/component"
+                        <a class="pagination-nav__link pagination-nav__link--prev" href="/docs/component/avatar"
                           ><div class="pagination-nav__sublabel">Previous</div>
-                          <div class="pagination-nav__label">Component</div></a
-                        ><a
-                          class="pagination-nav__link pagination-nav__link--next"
-                          href="/docs/component/manage-docs-versions"
+                          <div class="pagination-nav__label">Avatar</div></a
+                        ><a class="pagination-nav__link pagination-nav__link--next" href="/docs/migration-guide"
                           ><div class="pagination-nav__sublabel">Next</div>
-                          <div class="pagination-nav__label">Manage Docs Versions</div></a
+                          <div class="pagination-nav__label">Migration Guide</div></a
                         >
                       </nav>
                     </div>

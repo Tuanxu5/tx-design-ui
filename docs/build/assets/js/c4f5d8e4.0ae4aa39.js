@@ -2333,8 +2333,8 @@
       function E() {
         const { siteConfig: e } = (0, r.A)();
         return (0, d.jsxs)(f.A, {
-          title: `Hello from ${e.title}`,
-          description: "Description will go into a meta tag in <head />",
+          title: `Docs ${e.title}`,
+          description: "An enterprise-class UI design language and React components implementation",
           children: [(0, d.jsx)(g, {}), "ewqweqwe", (0, d.jsx)("main", { children: (0, d.jsx)(s, {}) })],
         });
       }

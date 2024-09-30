@@ -3,7 +3,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "Tx UI",
   tagline: "tx design ui",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.svg",
   url: "https://docs-tx-design.pages.dev",
   baseUrl: "/",
   organizationName: "Tuanxu5",
@@ -41,55 +41,51 @@ const config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
-      navbar: {
-        title: "Tx Design",
-        logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+  themeConfig: {
+    image: "img/docusaurus-social-card.jpg",
+    navbar: {
+      title: "Design UI",
+      logo: {
+        alt: "An enterprise-class UI design language and React components implementation",
+        src: "img/logo.svg",
+      },
+      items: [
+        {
+          to: "/docs/getting-started/overview",
+          position: "right",
+          label: "Tutorial",
         },
-        items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "right",
-            label: "Tutorial",
-          },
-          {
-            to: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
-          {
-            to: "https://github.com/facebook/docusaurus",
-            label: "Storybook",
-            position: "right",
-          },
-          {
-            type: "localeDropdown",
-            position: "right",
-            dropdownItemsAfter: [
-              {
-                type: "html",
-                value: '<hr style="margin: 0.3rem 0;">',
-              },
-              {
-                href: "https://github.com/facebook/docusaurus/issues/3526",
-                label: "Help Us Translate",
-              },
-            ],
-          },
-        ],
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+        {
+          to: "https://github.com/Tuanxu5/tx-design-ui",
+          label: "GitHub",
+          position: "right",
+        },
+        {
+          to: "https://github.com/Tuanxu5/tx-design-ui",
+          label: "Storybook",
+          position: "right",
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
+          dropdownItemsAfter: [
+            {
+              type: "html",
+              value: '<hr style="margin: 0.3rem 0;">',
+            },
+            {
+              href: "https://github.com/facebook/docusaurus/issues/3526",
+              label: "Help Us Translate",
+            },
+          ],
+        },
+      ],
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  },
 };
 
 export default config;

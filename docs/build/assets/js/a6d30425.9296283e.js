@@ -1,42 +1,42 @@
 "use strict";
 (self.webpackChunkdocs = self.webpackChunkdocs || []).push([
-  [6443],
+  [4310],
   {
-    4081: (e, n, t) => {
+    3888: (e, n, t) => {
       t.r(n),
         t.d(n, {
-          assets: () => i,
-          contentTitle: () => c,
+          assets: () => d,
+          contentTitle: () => s,
           default: () => u,
-          frontMatter: () => r,
-          metadata: () => d,
-          toc: () => a,
+          frontMatter: () => a,
+          metadata: () => i,
+          toc: () => c,
         });
       var o = t(4848),
-        s = t(8453);
-      const r = { sidebar_position: 1 },
-        c = "Button",
-        d = {
-          id: "component/button",
-          title: "Button",
-          description: "Let's translate docs/category/getting-started.md to French.",
-          source: "@site/docs/component/button.md",
+        r = t(8453);
+      const a = { sidebar_position: 1 },
+        s = "Avatar",
+        i = {
+          id: "component/avatar",
+          title: "Avatar",
+          description: "Let's translate docs/getting-started/overview.md to French.",
+          source: "@site/docs/component/avatar.md",
           sourceDirName: "component",
-          slug: "/component/button",
-          permalink: "/docs/component/button",
+          slug: "/component/avatar",
+          permalink: "/docs/component/avatar",
           draft: !1,
           unlisted: !1,
-          editUrl: "https://github.com/Tuanxu5/tx-design-ui/tree/master/docs/docs/component/button.md",
+          editUrl: "https://github.com/Tuanxu5/tx-design-ui/tree/master/docs/docs/component/avatar.md",
           tags: [],
           version: "current",
           sidebarPosition: 1,
           frontMatter: { sidebar_position: 1 },
           sidebar: "tutorialSidebar",
           previous: { title: "Component", permalink: "/docs/category/component" },
-          next: { title: "Manage Docs Versions", permalink: "/docs/component/manage-docs-versions" },
+          next: { title: "Button", permalink: "/docs/component/button" },
         },
-        i = {},
-        a = [
+        d = {},
+        c = [
           { value: "Configure i18n", id: "configure-i18n", level: 2 },
           { value: "Translate a doc", id: "translate-a-doc", level: 2 },
           { value: "Start your localized site", id: "start-your-localized-site", level: 2 },
@@ -54,17 +54,17 @@
           img: "img",
           p: "p",
           pre: "pre",
-          ...(0, s.R)(),
+          ...(0, r.R)(),
           ...e.components,
         };
         return (0, o.jsxs)(o.Fragment, {
           children: [
-            (0, o.jsx)(n.header, { children: (0, o.jsx)(n.h1, { id: "button", children: "Button" }) }),
+            (0, o.jsx)(n.header, { children: (0, o.jsx)(n.h1, { id: "avatar", children: "Avatar" }) }),
             "\n",
             (0, o.jsxs)(n.p, {
               children: [
                 "Let's translate ",
-                (0, o.jsx)(n.code, { children: "docs/category/getting-started.md" }),
+                (0, o.jsx)(n.code, { children: "docs/getting-started/overview.md" }),
                 " to French.",
               ],
             }),
@@ -95,7 +95,7 @@
             (0, o.jsxs)(n.p, {
               children: [
                 "Copy the ",
-                (0, o.jsx)(n.code, { children: "docs/category/getting-started.md" }),
+                (0, o.jsx)(n.code, { children: "docs/getting-started/overview.md" }),
                 " file to the ",
                 (0, o.jsx)(n.code, { children: "i18n/fr" }),
                 " folder:",
@@ -106,7 +106,7 @@
               children: (0, o.jsx)(n.code, {
                 className: "language-bash",
                 children:
-                  "mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/\n\ncp docs/category/getting-started.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md\n",
+                  "mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/\n\ncp docs/getting-started/overview.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md\n",
               }),
             }),
             "\n",
@@ -161,7 +161,7 @@
             (0, o.jsx)(n.p, { children: "The locale dropdown now appears in your navbar:" }),
             "\n",
             (0, o.jsx)(n.p, {
-              children: (0, o.jsx)(n.img, { alt: "Locale Dropdown", src: t(8192).A + "", width: "370", height: "302" }),
+              children: (0, o.jsx)(n.img, { alt: "Locale Dropdown", src: t(4549).A + "", width: "370", height: "302" }),
             }),
             "\n",
             (0, o.jsx)(n.h2, { id: "build-your-localized-site", children: "Build your localized site" }),
@@ -181,21 +181,21 @@
         });
       }
       function u(e = {}) {
-        const { wrapper: n } = { ...(0, s.R)(), ...e.components };
+        const { wrapper: n } = { ...(0, r.R)(), ...e.components };
         return n ? (0, o.jsx)(n, { ...e, children: (0, o.jsx)(l, { ...e }) }) : l(e);
       }
     },
-    8192: (e, n, t) => {
+    4549: (e, n, t) => {
       t.d(n, { A: () => o });
       const o = t.p + "assets/images/localeDropdown-f0d995e751e7656a1b0dbbc1134e49c2.png";
     },
     8453: (e, n, t) => {
-      t.d(n, { R: () => c, x: () => d });
+      t.d(n, { R: () => s, x: () => i });
       var o = t(6540);
-      const s = {},
-        r = o.createContext(s);
-      function c(e) {
-        const n = o.useContext(r);
+      const r = {},
+        a = o.createContext(r);
+      function s(e) {
+        const n = o.useContext(a);
         return o.useMemo(
           function () {
             return "function" == typeof e ? e(n) : { ...n, ...e };
@@ -203,15 +203,15 @@
           [n, e]
         );
       }
-      function d(e) {
+      function i(e) {
         let n;
         return (
           (n = e.disableParentContext
             ? "function" == typeof e.components
-              ? e.components(s)
-              : e.components || s
-            : c(e.components)),
-          o.createElement(r.Provider, { value: n }, e.children)
+              ? e.components(r)
+              : e.components || r
+            : s(e.components)),
+          o.createElement(a.Provider, { value: n }, e.children)
         );
       }
     },

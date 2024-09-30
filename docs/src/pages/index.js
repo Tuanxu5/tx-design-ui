@@ -15,9 +15,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        qweqwe
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        qweqwekqwkejl
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/docs/getting-started/overview">
             Docusaurus Tutorial - 5min ⏱️
@@ -31,9 +29,11 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
+    <Layout
+      title={`Docs ${siteConfig.title}`}
+      description="An enterprise-class UI design language and React components implementation"
+    >
       <HomepageHeader />
-      ewqweqwe
       <main>
         <HomepageFeatures />
       </main>
