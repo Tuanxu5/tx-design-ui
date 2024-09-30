@@ -1,7 +1,7 @@
 import { fn } from "@storybook/addon-actions";
 import React from "react";
 import { SvgIcon } from "../assets/icons";
-import TxButton from "../components/tx-button/tx-button";
+import { TxButton } from "../components";
 
 export default {
   title: "tx-design-ui/TxButton",
@@ -20,10 +20,10 @@ export default {
   },
 };
 
-export const PreviewTexButton = {
+export const PreviewButton = {
   render: args => (
     <div className="flex-center">
-      <TxButton {...args} label="Primary" />
+      <TxButton label="Primary" />
     </div>
   ),
   args: {
@@ -34,12 +34,12 @@ export const PreviewTexButton = {
 export const Type = {
   render: args => (
     <div className="flex-center">
-      <TxButton {...args} label="Primary" />
-      <TxButton {...args} type="secondary" label="Secondary" />
-      <TxButton {...args} type="dashed" label="Dashed" />
-      <TxButton {...args} type="filled" label="Filled" />
-      <TxButton {...args} type="text" label="Text" />
-      <TxButton {...args} type="link" label="Link" />
+      <TxButton label="Primary" />
+      <TxButton type="secondary" label="Secondary" />
+      <TxButton type="dashed" label="Dashed" />
+      <TxButton type="filled" label="Filled" />
+      <TxButton type="text" label="Text" />
+      <TxButton type="link" label="Link" />
     </div>
   ),
   args: {
@@ -50,12 +50,12 @@ export const Type = {
 export const Disabled = {
   render: args => (
     <div className="flex-center">
-      <TxButton {...args} disabled />
-      <TxButton {...args} type="secondary" label="Secondary" disabled />
-      <TxButton {...args} type="dashed" label="Dashed" disabled />
-      <TxButton {...args} type="filled" label="Filled" disabled />
-      <TxButton {...args} type="text" label="Text" disabled />
-      <TxButton {...args} type="link" label="Link" disabled />
+      <TxButton disabled />
+      <TxButton type="secondary" label="Secondary" disabled />
+      <TxButton type="dashed" label="Dashed" disabled />
+      <TxButton type="filled" label="Filled" disabled />
+      <TxButton type="text" label="Text" disabled />
+      <TxButton type="link" label="Link" disabled />
     </div>
   ),
   args: {
@@ -66,12 +66,12 @@ export const Disabled = {
 export const Loading = {
   render: args => (
     <div className="flex-center">
-      <TxButton {...args} loading />
-      <TxButton {...args} type="secondary" label="Secondary" loading />
-      <TxButton {...args} type="dashed" label="Dashed" loading />
-      <TxButton {...args} type="filled" label="Filled" loading />
-      <TxButton {...args} type="text" label="Text" loading />
-      <TxButton {...args} type="link" label="Link" loading />
+      <TxButton loading />
+      <TxButton type="secondary" label="Secondary" loading />
+      <TxButton type="dashed" label="Dashed" loading />
+      <TxButton type="filled" label="Filled" loading />
+      <TxButton type="text" label="Text" loading />
+      <TxButton type="link" label="Link" loading />
     </div>
   ),
   args: {
@@ -84,12 +84,12 @@ export const Loading = {
 export const Danger = {
   render: args => (
     <div className="flex-center">
-      <TxButton {...args} label="Primary" danger />
-      <TxButton {...args} type="secondary" label="Secondary" danger />
-      <TxButton {...args} type="dashed" label="Dashed" danger />
-      <TxButton {...args} type="filled" label="Filled" danger />
-      <TxButton {...args} type="text" label="Text" danger />
-      <TxButton {...args} type="link" label="Link" danger />
+      <TxButton label="Primary" danger />
+      <TxButton type="secondary" label="Secondary" danger />
+      <TxButton type="dashed" label="Dashed" danger />
+      <TxButton type="filled" label="Filled" danger />
+      <TxButton type="text" label="Text" danger />
+      <TxButton type="link" label="Link" danger />
     </div>
   ),
   args: {
@@ -100,9 +100,9 @@ export const Danger = {
 export const Size = {
   render: args => (
     <div className="flex-center">
-      <TxButton {...args} label="Large" size="large" />
-      <TxButton {...args} label="Medium" size="medium" />
-      <TxButton {...args} label="Small" size="small" />
+      <TxButton label="Large" size="large" />
+      <TxButton label="Medium" size="medium" />
+      <TxButton label="Small" size="small" />
     </div>
   ),
   args: {
@@ -113,9 +113,9 @@ export const Size = {
 export const Icon = {
   render: args => (
     <div className="flex-center">
-      <TxButton {...args} label="Icon" prefix=<SvgIcon.IconCursor04 /> />
-      <TxButton {...args} label=<SvgIcon.IconCursor04 /> />
-      <TxButton {...args} label="Icon" suffix=<SvgIcon.IconCursor04 /> />
+      <TxButton label="Icon" prefix={<SvgIcon.IconCursor04 />} />
+      <TxButton label={<SvgIcon.IconCursor04 />} />
+      <TxButton label="Icon" suffix={<SvgIcon.IconCursor04 />} />
     </div>
   ),
   args: {
@@ -126,9 +126,9 @@ export const Icon = {
 export const Shape = {
   render: args => (
     <div className="flex-center">
-      <TxButton {...args} label="Default" />
-      <TxButton {...args} label=<SvgIcon.IconCursor04 /> shape="circle" />
-      <TxButton {...args} label="Circle" shape="circle" />
+      <TxButton label="Default" />
+      <TxButton label={<SvgIcon.IconCursor04 />} shape="circle" />
+      <TxButton label="Circle" shape="circle" />
     </div>
   ),
   args: {
@@ -144,7 +144,7 @@ export const GradientBackground = {
     };
     return (
       <div className="flex-center">
-        <TxButton {...args} label="Default" gradientBackground={gradientBackground} />
+        <TxButton label="Default" gradientBackground={gradientBackground} />
       </div>
     );
   },

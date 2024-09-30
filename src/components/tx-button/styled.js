@@ -9,7 +9,7 @@ const StyledTxButton = styled.button`
   gap: 8px;
   color: ${props => props.color || "#ffffff"};
   border: ${props => (props.gradientBackground ? "1px solid #ffffff" : "1px solid #0e0e13ff")};
-  border-radius: ${props => (props.shape === "circle" ? "100px" : "12px")};
+  border-radius: ${props => (props.shape === "circle" ? "100px" : "10px")};
   font-size: 14px;
   cursor: pointer;
   position: relative;
