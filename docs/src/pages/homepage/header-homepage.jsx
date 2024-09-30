@@ -1,7 +1,7 @@
 import Link from "@docusaurus/Link";
 import "./index.css";
 
-export const HomepageHeader = () => {
+const HeaderHomepage = () => {
   return (
     <header>
       <div className="header-homepage">
@@ -26,3 +26,5 @@ export const HomepageHeader = () => {
     </header>
   );
 };
+
+export default HeaderHomepage;

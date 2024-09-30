@@ -1,7 +1,7 @@
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import "./index.css";
 
-export const HomePageContent = () => {
+const ContentHomepage = () => {
   return (
     <main className="homepage-content">
       <div className="content-content">
@@ -10,3 +10,4 @@ export const HomePageContent = () => {
     </main>
   );
 };
+export default ContentHomepage;
